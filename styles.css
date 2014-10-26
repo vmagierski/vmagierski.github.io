@@ -1,7 +1,19 @@
 body {
     background-color: lightblue;
 }
+
 h1 {
     color: navy;
-     margin-left: 20px;
+     margin-left: 50%;
+}
+p {
+    
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 60%;
+    box-shadow: 10px 20px 20px #6000ff;   
+}
+div {
+    padding: 90% 0px 0px 0px;
 }
