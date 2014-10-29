@@ -18,5 +18,10 @@ p {
     margin-left: 50%;
 }
 #footer {
-	 padding: 100px;
+	 margin-bottom: 3px;
+	 position: absolute;
+	 left: 50%;
+	 top: 92%;
+	 
+	 
 }
