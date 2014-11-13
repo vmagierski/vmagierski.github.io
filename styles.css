@@ -1,16 +1,33 @@
 body {
-    background-color: lightblue;
-    padding: 5px 0px 0px 0px;
-    margin: 0px 30% 0px;
+    background: #e6d05E;
+    background: -webkit-linear-gradient(top, #9CC4ED, #258dc8);
+    
 }
 
 h1 {
-    color: navy;
+    color: #D8ffff;
 }
-p {
-    background-color: yellow;
-    box-shadow: 10px 20px 20px #6000ff;
+.SecondSubsectionBKG {
+    background-color: #df8532;
+    box-shadow: 10px 20px 20px #CEAE21;
+    font: 25px sans-serif;
+    font-family: Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px -8px 0px -8px;
 }
+.SecondSubsectionTxt {
+    padding: 4px;
+    margin: 0px 33% 0px 33%;
+}
+#square{
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    background: #ce5800;
+    
+}
+
+
 #header {
     background: -moz-linear-gradient(top, #0090ff, #facdbf);
     background: -webkit-linear-gradient(top, #0090ff, #facdbf);
@@ -27,8 +44,9 @@ li{
 }
 
 #footer {
-	 margin-bottom: 3px;
-	 position: absolute;
-	 left: 50%;
-	 top: 92%;
+    margin-bottom: 3px;
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    
 }
