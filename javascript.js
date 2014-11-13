@@ -8,7 +8,6 @@ if ("geolocation" in navigator) {
 }
 */
 
-alert(onclick);
 
 //FOLLOWING KONAMI CODE TAKEN FROM: http://mattkirman.com/how-to-recreate-the-konami-code-in-javascript/
 //
