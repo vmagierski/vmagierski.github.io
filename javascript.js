@@ -9,6 +9,7 @@ if ("geolocation" in navigator) {
 */
 
 
+
 //FOLLOWING KONAMI CODE TAKEN FROM: http://mattkirman.com/how-to-recreate-the-konami-code-in-javascript/
 //
 
@@ -24,7 +25,7 @@ function detectKonami(e){
     // and check to see if the user has entered the Konami code
     // do something such as:
     if (keys.toString().indexOf(konami) >= 0) {
-        alert('Konami');
+        alert("You are a genius! You found the Easter Egg!");
 
         // and finally clean up the keys array
         keys = [];
