@@ -25,7 +25,7 @@ function detectKonami(e){
     // and check to see if the user has entered the Konami code
     // do something such as:
     if (keys.toString().indexOf(konami) >= 0) {
-        alert("You are a genius! You found the Easter Egg!");
+        alert('You are a genius! You found the Easter Egg!');
 
         // and finally clean up the keys array
         keys = [];
