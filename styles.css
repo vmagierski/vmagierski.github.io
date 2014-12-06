@@ -1,51 +1,78 @@
 body {
     background: #e6d05E;
-    margin: 0px;
-}
-
-h1 {
-    color: #D8ffff;
-}
-.SecondSubsectionBKG {
-    background-color: #df8532;
-    box-shadow: 10px 20px 20px #CEAE21;
-    font: 25px sans-serif;
-    font-family: Verdana, sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
-.SecondSubsectionTxt {
-    padding: 4px;
-    margin: 0px 33% 0px 33%;
-}
-#square{
     margin: 0;
-    width: 100%;
-    height: 100px;
-    padding: 0px;
-    background: #ce5800;
-    
 }
 
-
-#header {
-    background: -moz-linear-gradient(top, #0090ff, #facdbf);
-    background: -webkit-linear-gradient(top, #ff4cff, #ff9737);
-    background: -o-linear-gradient(top, #df8532, #ff61ff);
-    border: 5px solid;
-}
-ul{
-    display: block;
-}
-li{
-    display: inline;
-    border: 4px solid #ee0000;
-    padding: 0px 10%;
-}
-
-#footer {
-    bottom: 0%; 
-    width: 100%;
+body h1 {
     text-align: center;
-    position: absolute; 
+    font-variant: small-caps;
+    padding: 50px;
+}
+
+header {
+    background: #87e0fd; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    padding: 10px 15px 0px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    cursor: default;
+}
+
+nav ul {
+    display: inline;
+    padding: 0px 0px 0px 15px;
+    margin: 0;
+}
+
+nav ul li {
+    background: black;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 7px;
+}
+nav ul :hover {
+    color: black;
+    background: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col {
+    color: red;
+    background: #222;
+    width: 31%;
+    margin: 1%;
+    height: ;
+    border-radius: 5px;
+    float: left;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
