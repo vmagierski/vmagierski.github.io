@@ -1,6 +1,9 @@
 body {
     background: #e6d05E;
     margin: 0;
+    background-image: url("gradient.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 body h1 {
@@ -35,16 +38,17 @@ nav ul {
 }
 
 nav ul li {
-    background: black;
+    background: #395870;
+    background: linear-gradient(#489389, #293f50);
     color: white;
     list-style-type: none;
     display: inline-block;
     padding: 3px 9px;
     border-radius: 7px;
 }
-nav ul :hover {
-    color: black;
-    background: white;
+nav ul li:hover {
+    background: #123456;
+    background: linear-gradient(#293f50, #489389);
 }
 
 nav ul li a {
@@ -66,6 +70,7 @@ nav ul li a {
     height: ;
     border-radius: 5px;
     float: left;
+    height: 500px;
 }
 
 footer {
