@@ -4,6 +4,7 @@ body {
     background-image: url("gradient.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 body h1 {
@@ -26,7 +27,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0px;
     display: inline;
     cursor: default;
 }
@@ -38,21 +39,21 @@ nav ul {
 }
 
 nav ul li {
-    background: #395870;
-    background: linear-gradient(#489389, #293f50);
     color: white;
     list-style-type: none;
     display: inline-block;
-    padding: 3px 9px;
-    border-radius: 7px;
 }
-nav ul li:hover {
+nav ul li a:hover {
     background: #123456;
     background: linear-gradient(#293f50, #489389);
 }
 
 nav ul li a {
     color: white;
+    background: #395870;
+    background: linear-gradient(#489389, #293f50);
+    padding: 4px 10px 4px 10px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
